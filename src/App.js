@@ -11,8 +11,8 @@ export default class App extends Component {
           <Link to='/'><span>First</span></Link>
           <br/>
           <Link to='/second'><span>Second</span></Link>
-          <br/>
-          <Link to='/third'><span>Third</span></Link>
+          {/* <br/>
+          <Link to='/third'><span>Third</span></Link> */}
         </div>
         {routes}
       </div>
